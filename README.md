@@ -19,14 +19,14 @@
 import torch
 from disturbvalue import disturbvalue 
 
-target = torch.ones(100,1)
+...
+
 reg = disturbvalue.DisturbValue(alpha=.3, sigma=1e-2)
 num_epochs = 1000
 
-for i in range(num_epochs):
+...
 
-    ...
-    
+for i in range(num_epochs):
     for data, targets in dataloader:
     
         ...
