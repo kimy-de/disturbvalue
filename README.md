@@ -4,7 +4,7 @@
 
 **DisturbValue** injects noise into a portion of target values at random to alleviate the overfitting problem. The reference paper shows that the method outperforms L2 regularization and Dropout and that the best performance is achieved in more than half the datasets by combining our methods with either L2 regularization or Dropout.
 
-*Yongho Kim, Hanna Lukashonak, Paweena Tarepakdee, Klavdiia Zavalich, and Mofassir ul Islam Arif (2021) Disturbing Target Values for Neural Network Regularization, arXiv:2110.05003*
+*[Yongho Kim, Hanna Lukashonak, Paweena Tarepakdee, Klavdiia Zavalich, and Mofassir ul Islam Arif (2021) Disturbing Target Values for Neural Network Regularization, arXiv:2110.05003](https://arxiv.org/abs/2110.05003)* 
 
 ## Install
 `pip install dvreg`
